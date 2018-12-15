@@ -1,14 +1,14 @@
 # Izhikevich_Regular_Spiking_Neuron
 
 
-a)To implement the program to simulate the neuron using the model which combines the biologically
+a) To implement the program to simulate the neuron using the model which combines the biologically
 plausibility of Hodgkin-Huxley-type dynamics and the computation efficiency of integrate-and-fire neurons
 i.e., Izhikevich spiking model for different levels of synaptic currents or injected dc currents and plot the
 simulations for five different current levels. Also need to plot for spike rate versus injected dc current
 ranging from 0 to 20 in steps of 0.25
 
 
-b)To implement the program to simulate a simple network of two neurons, A and B where A gets a steady
+b) To implement the program to simulate a simple network of two neurons, A and B where A gets a steady
 external input IA, and B only gets its input from the output of A using the same model as discussed in
 problem statement 1 and plot mean spike rate of both neurons against input current of neuron. Also need to
 plot mean spike rate of neuron A versus mean spike rate of neuron A.
@@ -20,7 +20,7 @@ One of the most widely used current models for neurons is the Izhikevich model, 
 (Izhikevich, 2003, 2004). It models the membrane potential of a neuron by two coupled differential
 equations:
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Equation Img](https://github.com/sskrishn/Izhikevich_Regular_Spiking_Neuron/blob/master/equation.PNG)
 
 with the condition that:
 if v ≥ 30, v = c, u = u + d (3)
